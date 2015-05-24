@@ -1,0 +1,156 @@
+#form
+	{
+		Width:100%;
+	}
+
+#header
+	{
+		float:left;
+	}
+
+#contact
+	{
+		float:right;
+		font-size: 13px;
+		font-family: Tahoma, Geneva, sans-serif;
+  		color: black;
+	}
+
+#contact>em
+	{
+  		padding-right: 40px;
+	}
+
+#header_line
+	{
+		border-bottom: 2px solid #db2927;
+		margin-bottom: 30px;
+	}
+
+#label
+	{
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size: 18px;
+		color: #2c286d;
+		margin-left: 400px;
+		margin-top: 20px;
+	}
+
+#box
+	{
+		background-color:#ececec;
+		border:1px solid #bcbcbc;
+		padding:20px 0px 20px 0px;
+		margin:0px auto;
+		height: 400px;
+		width:540px;
+	}
+
+#inner_label
+	{
+		float: right;
+		text-align: right;
+	}
+
+.label
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		color:black;
+		font
+		text-align: right;
+		vertical-align: middle;
+		margin-right:20px;
+	}
+
+.input
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+		background-color: white;
+		border: 1px solid #b9b9b9;
+		width:358px;
+		height: 23px;
+		margin-right: 30px;
+		float:right;
+		padding: 0px;
+	}
+
+#break
+	{
+		clear:both;
+		padding-bottom: 10px;
+	}
+
+.Gen_label
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size:14px;
+		color:black;
+		float:left;
+		text-align: right;
+		margin-left: 42px;
+
+	}
+
+.radio
+	{
+		float:left;
+  		margin-left: 15px;
+  		font-family: Tahoma, Geneva, sans-serif;
+  		font-size: 13px;
+  		color: #6f6f6f;
+	}
+
+.DOB_label
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+  		font-size: 14px;
+  		color: black;
+  		float:left;
+  		text-align:right;
+  		margin-left: 10px;
+	}
+
+.DOB
+	{
+		float: left;
+		margin-left: 20px;
+	}
+
+.select
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 13px;
+		width:110px;
+		color:#6f6f6f;
+		background-color: white;
+	}
+
+.Address
+	{
+		font-family: Tahoma, Geneva, sans-serif;
+ 	 	background-color: white;
+  		border:1px solid #b9b9b9;
+  		margin-right: 30px;
+  		margin-left: 0px;
+  		height:133px;        
+  		width: 358px;
+  		float:right;
+  		padding:0px; 
+	}
+
+.submit
+	{
+		clear: both;
+  		float:left;
+  		margin-top: 20px;
+  		width: 130px;
+  		height: 32px;
+  		background-color: #dc2927;
+  		border: 1px solid #a10200;
+  		color: white;
+  		text-align: center;
+  		font-size: 14px;
+  		font-family: Tahoma, Geneva, sans-serif;
+  		margin-left: 135px;
+	}

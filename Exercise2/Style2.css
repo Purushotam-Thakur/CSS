@@ -1,0 +1,92 @@
+
+#header
+	{
+	  width:940px;
+	  background-color:#b2e7ff;
+	  font-family:tahoma;
+	  font-size:24px;
+	  color:black;
+	  text-align:center;
+	  border-bottom:2px solid #0ab1ff;
+	  padding:30px;
+	}
+	
+#Content
+	{
+	  overflow:hidden;
+	}
+	
+#left_section
+	{
+	  width:230px;
+	  background-color:#0ab1ff;
+	  padding:25px 10px; 
+	  padding-bottom: 32767px;
+	  margin-bottom: -32767px;
+	  float:left;
+	}
+	
+#right_section
+	{
+	  width:710px;
+	  background-color: #ededed;
+	  padding: 20px;
+	  float: left;
+	  padding-bottom: 32767px;
+	  margin-bottom: -32767px;
+	}
+	
+#left_section_header
+	{
+	  font-family:tahoma;
+	  font-size:18px;
+	  color:black;
+	}
+	
+ul
+	{
+	  padding-left:20px;
+	  color:white;
+	  font-family:tahoma;
+	  font-size:14px;
+	  line-height:30px;
+	}
+	
+#left_section p
+	{
+	  font-family:tahoma;
+	  font-size:12px;
+	  color:white;
+	}
+	
+#right_section_heading
+	{
+	  font-family:tahoma;
+	  font-size:24px;
+	  color:black;
+	}
+	
+#right_section  p
+	{
+	  font-family:tahoma;
+	  font-size:14px;
+	  color:#802525;
+	}
+	
+#right_section dt
+	{
+	  font-weight:bold;
+	}
+	
+#footer
+	{
+	  background-color:#3cff78;
+	  font-family:tahoma;
+	  font-size:24px;
+	  color:black;
+	  text-align:center;
+	  border-bottom:2px solid #0ab1ff;
+	  width:940px;
+	  padding:30px;
+	  
+	}

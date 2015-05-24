@@ -1,0 +1,109 @@
+
+ul
+	{
+	 list-style:none;
+	}
+  
+#Menu 
+	{ 
+	 margin-left:-50px;
+	 float:left;
+	 border-bottom:1px solid #6d6d6d;
+	}
+
+#Menu > li
+	{
+	 float:left;
+	 background-color:#cfcfcf;
+	 padding: 0px 20px 0px 20px;
+	 margin-left:2px;
+	 height:36px;
+	 border-bottom:none;
+	 
+	}
+	
+#Menu> li> a
+	{
+	 font-family: Georgia;
+	 font-style: italic;
+	 font-size: 18px;
+	 color: black;
+	 display: block;
+	 line-height: 2em;
+	 text-decoration:none;
+	 padding-bottom:0px;
+	}
+	
+#Menu ul
+	{
+	 position: absolute;
+	 display: none;
+	}
+	
+#Menu li:hover  ul#Sub_Menu
+	{
+	 display:block; 
+	}
+	
+#Menu> li:hover 
+	{
+	 background-color:white;
+	 padding: 0px 20px;
+	 margin-left:2px;
+	 border-bottom:2px solid white;
+	 height:34px;
+	}
+
+#Menu> li:hover > a
+	{
+	 color:#8c8c8c;
+	}
+	
+.Drop_Down:hover
+	{
+	 border-left:1px solid #6d6d6d;
+	 border-right:1px solid #6d6d6d;
+	 border-top:1px solid #6d6d6d;
+	}
+	
+#Sub_Menu
+	{
+	 margin-left:-21px;
+	 padding-left:0px;
+	 border-left:1px solid #6d6d6d;
+	 border-right:1px solid #6d6d6d;
+	 border-bottom:1px solid #6d6d6d;
+	 background-color:white;
+	}
+	
+#Sub_Menu> li
+	{
+	  margin-right:50px;
+	  padding:5px 0px 5px 0px;
+	}
+
+#Sub_Menu> li> a
+	{
+	  font-family: Georgia;
+	  font-style: italic;
+	  font-size: 14px;
+	  color: black;
+	  text-decoration: none;
+	  border-bottom: 1px solid #cfcfcf;
+	  padding-right: 12px;
+	}
+	
+	#sub_menu > li:hover
+	{
+	  background-color: white;
+	}
+
+#Sub_Menu> li:hover a
+	{
+	  color:#bd0707;
+	}
+	
+#Sub_Menu> li:last-child>a
+	{
+	  border-bottom:none;
+	}
